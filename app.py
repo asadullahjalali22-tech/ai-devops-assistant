@@ -1,3 +1,4 @@
+from agents.mcp_agent import aws_identity
 from agents.planner import create_plan
 
 from agents.terraform_agent import (
@@ -12,6 +13,10 @@ from agents.tester import test_s3_bucket
 task = input("Enter your DevOps task: ")
 
 plan = create_plan(task)
+
+print("\n--- MCP AWS CHECK ---")
+identity = aws_identity()
+print(identity)
 
 print("\n--- PLANNER AGENT ---")
 

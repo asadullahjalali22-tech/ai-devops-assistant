@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "devops_bucket" {
-  bucket = "ai-devops-tf-54daefc1"
+  bucket = "ai-devops-tf-59f89948"
 }
 
 output "bucket_name" {
