@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+*.pyc
+
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+.aws/
